@@ -4,7 +4,7 @@ const USERID = {
   date: null,
 };
 
-const userComment = document.querySelector(".usercomment");
+const userComment = document.querySelector(".user-comment");
 const publishBtn = document.querySelector("#button_01");
 const comments = document.querySelector(".comment-area");
 const userName = document.querySelector(".user");
@@ -80,6 +80,7 @@ function renderComments() {
 
 sortDropdown.addEventListener("change", renderComments);
 renderComments();
+
 async function searchCountry() {
   const country_input = document.getElementById('country_input').value;
   try {
