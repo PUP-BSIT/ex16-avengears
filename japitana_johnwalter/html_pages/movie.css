@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "ProggySquareTT";
+  src: url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.eot");
+  src: url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.svg#ProggySquareTT")
+      format("svg");
+}
+
+* {
+  font-family: "ProggySquareTT";
+  font-weight: 400;
+  font-style: normal;
+  color: #eeeeee;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #222831;
+}
+
+h2 {
+  color: #00adb5;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+input,
+textarea,
+button {
+  color: #000000;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
