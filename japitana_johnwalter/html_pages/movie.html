@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="movie.css" />
+    <title>Movie DB</title>
+  </head>
+  <body>
+    <h1>Movie DB</h1>
+    <form>
+      <input id="movie_id" type="text" placeholder="id" disabled />
+      <input id="movie_name" type="text" placeholder="Movie name" />
+      <input id="movie_summary" type="text" placeholder="Summary" />
+      <input id="movie_genre" type="text" placeholder="Movie Genre" />
+      <input id="movie_director" type="text" placeholder="Director" />
+      <input id="movie_date" type="text" placeholder="Movie's Release Date" />
+      <button type="button" onclick="insertData()">Insert</button>
+      <button type="button" onclick="updateData()">Update</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Summary</th>
+          <th>Genre</th>
+          <th>Director</th>
+          <th>Date of Release</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id="container"></tbody>
+    </table>
+    <script src="movie.js"></script>
+  </body>
+</html>
