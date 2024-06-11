@@ -163,3 +163,50 @@ iframe {
   width: 99%;
   height: 20em;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#country_details, #countries_region {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#country_details h2, #countries_region h2 {
+  color: #333;
+}
+
+#countries_region p {
+  margin: 5px 0;
+}
