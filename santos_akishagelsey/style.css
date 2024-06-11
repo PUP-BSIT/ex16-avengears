@@ -1,0 +1,156 @@
+@media (max-width: 426px) {
+  .message-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 426px) {
+  .upper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .message-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+* {
+  font-family: "Times New Roman";
+  color: #112d4e;
+}
+
+body {
+  background-color: #f9f7f7;
+}
+
+img {
+  width: 200px;
+  height: 160px;
+  opacity: 0.5;
+  object-fit: contain;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+h2 {
+  color: #3f72af;
+  text-align: center;
+}
+
+.name {
+  background-image: url("media/image7.png");
+  text-align: center;
+  line-height: 90px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  border-radius: 25px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.works {
+  background-color: #dbe2ef;
+  border: 2px solid #3f72af;
+  width: 250px;
+}
+
+.gallery {
+  background-color: #dbe2ef;
+  margin-bottom: 1rem;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.ul-class {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #112d4e;
+}
+
+.li-class {
+  float: left;
+}
+
+.li-class a,
+.drop-btn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li-class a:hover,
+.dropdown:hover .drop-btn {
+  background-color: #3f72af;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #112d4e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0px;
+}
+
+.dropdown-content a {
+  color: #3f72af;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #dbe2ef;
+  border-radius: 25px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
