@@ -8,7 +8,7 @@ const userComment = document.querySelector(".user-comment");
 const publishBtn = document.querySelector("#button_01");
 const comments = document.querySelector(".comment-area");
 const userName = document.querySelector(".user");
-const sortDropdown = document.querySelector("#sortDropdown");
+const sort_dropdown = document.querySelector("#sort_dropdown");
 
 const commentsArray = [
     {
@@ -59,7 +59,7 @@ publishBtn.addEventListener("click", addPost);
 function renderComments() {
   comments.innerHTML = "";
 
-  const sortValue = sortDropdown.value;
+  const sortValue = sort_dropdown.value;
   if (sortValue === "date-asc") {
     commentsArray.sort((a, b) => new Date(a.date) - new Date(b.date));
   } else if (sortValue === "date-desc") {
@@ -78,5 +78,5 @@ function renderComments() {
   });
 }
 
-sortDropdown.addEventListener("change", renderComments);
+sort_dropdown.addEventListener("change", renderComments);
 renderComments()

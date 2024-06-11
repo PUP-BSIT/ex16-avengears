@@ -40,9 +40,11 @@ a {
   0% {
     opacity: 0;
   }
+
   20% {
     opacity: 0;
   }
+
   100% {
     visibility: visible;
     opacity: 1;
@@ -164,11 +166,13 @@ ul:after {
     background-size: 120%;
   }
 }
+
 @keyframes fade-down {
   0% {
     transform: translateY(-2em);
     opacity: 0;
   }
+  
   100% {
     transform: translateY(0);
     opacity: 0.5;

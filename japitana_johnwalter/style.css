@@ -78,12 +78,14 @@ form {
   overflow: hidden;
   background-color: #393e46;
 }
+
 .flag-img {
   display: block;
   width: 45%;
   min-width: 7.5em;
   margin: 1.8em auto 1.2em auto;
 }
+
 .li-class {
   float: left;
 }
