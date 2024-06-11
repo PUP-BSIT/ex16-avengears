@@ -11,21 +11,21 @@ const userName = document.querySelector(".user");
 const sortDropdown = document.querySelector("#sort_ropdown");
 
 const commentsArray = [
-    {
-		name: "walter",
-		message: "'Dattebayo!'(-Naruto)",
-		date: new Date("May 5, 2024 22:28:24 2024")
-	},
-    {
-		name: "jasmin",
-		message: "Goodluck to you're journey",
-		date: new Date("May 5, 2024 10:28:24 2024")
-	},
-    {
-		name: "james",
-		message: "Hope your dreams come true",
-		date: new Date("May 5, 2024 13:28:24 2024")
-	},
+  {
+    name: "walter",
+    message: "'Dattebayo!'(-Naruto)",
+    date: new Date("May 5, 2024 22:28:24 2024"),
+  },
+  {
+    name: "jasmin",
+    message: "Goodluck to you're journey",
+    date: new Date("May 5, 2024 10:28:24 2024"),
+  },
+  {
+    name: "james",
+    message: "Hope your dreams come true",
+    date: new Date("May 5, 2024 13:28:24 2024"),
+  },
 ];
 
 userComment.addEventListener("input", (e) => {
@@ -79,4 +79,4 @@ function renderComments() {
 }
 
 sortDropdown.addEventListener("change", renderComments);
-renderComments()
+renderComments();
